@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: #e5e5e5;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.rectangle {
+  border-radius: 6px;
+}

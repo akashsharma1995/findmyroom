@@ -1,0 +1,35 @@
+.container {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav {
+  overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  font-size: medium;
+  border-bottom: 3px solid transparent;
+}
+
+.nav a:hover {
+  border-bottom: 3px solid var(--primary);
+}
+
+.nav a.active {
+  border-bottom: 3px solid var(--primary);
+  font-weight: 600;
+}

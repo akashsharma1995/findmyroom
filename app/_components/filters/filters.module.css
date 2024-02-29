@@ -1,0 +1,51 @@
+.container {
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.select {
+  padding: 8px 60px;
+  border-radius: 9px;
+  border-color: transparent;
+  background: #e5e5e5;
+}
+
+.date {
+  border-color: transparent;
+  background: #e5e5e5;
+  border-radius: 9px;
+  padding: 8px 20px;
+}
+
+.guestsCounter {
+  background: #e5e5e5;
+  border-radius: 9px;
+  padding: 8px;
+}
+
+.counterCta {
+  background: white;
+  color: var(--primary);
+  border-radius: 5px;
+  padding: 3px 10px;
+  font-size: 18px;
+}
+
+.guestText {
+  padding: 0 5px;
+  font-size: smaller;
+}

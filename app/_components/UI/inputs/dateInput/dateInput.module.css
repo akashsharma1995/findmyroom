@@ -1,0 +1,16 @@
+.dateComp {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.dateLabel {
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+.date {
+  padding: 8px;
+  border-radius: 9px;
+  border-color: transparent;
+}
