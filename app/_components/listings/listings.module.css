@@ -46,3 +46,9 @@
   top: 15px;
   z-index: 1;
 }
+
+.imageContainer {
+  position: relative;
+  display: flex;
+  height: 200px;
+}
