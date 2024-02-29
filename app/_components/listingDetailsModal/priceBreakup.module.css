@@ -1,0 +1,23 @@
+.container {
+  padding: 10px 0;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: smaller;
+}
+
+.infoIcon {
+  width: 12px;
+}
+
+.value {
+  font-size: smaller;
+}

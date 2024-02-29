@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 200px 200px;
+  gap: 20px;
+  grid-auto-rows: minmax(200px, auto);
+  position: relative;
+}
+
+.image {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image1 {
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.image2 {
+  grid-column: 2;
+  grid-row: 1 / 2;
+}
+
+.image3 {
+  grid-column: 2;
+  grid-row: 2 / 3;
+}
+
+.buttonContainer {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

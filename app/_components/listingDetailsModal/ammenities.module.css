@@ -1,0 +1,23 @@
+.container {
+  margin-bottom: 30px;;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 15px
+}
+
+.ammenity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.viewMore {
+  color: var(--primary);
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}

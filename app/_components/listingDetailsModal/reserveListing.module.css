@@ -1,0 +1,52 @@
+.container {
+  border: 1px solid #dfdfdf;
+  background: #edecec;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.priceAndRatings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.perNightText {
+  font-size: small;
+}
+
+.datesContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.guestOptionsContainer {
+  margin-bottom: 30px;
+}
+
+.totalSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px 0;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalText {
+  font-weight: 600;
+}
+
+.totalDescText {
+  font-size: small;
+  color: grey;
+}
+
+

@@ -1,0 +1,21 @@
+.imageAvatar {
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.textAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background: rgb(99, 99, 133);
+}
+
+.text {
+  font-size: larger;
+  font-weight: 700;
+  color: white;
+}

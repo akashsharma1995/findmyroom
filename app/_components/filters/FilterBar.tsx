@@ -32,8 +32,8 @@ const FilterBar: FC = () => {
     <section className={styles.container}>
       <div className={styles.contentWrapper}>
         <div className={styles.wrapper}>
-          <IconButton icon={<Grid />} shape="rectangle" />
-          <IconButton icon={<Map />} shape="rectangle" />
+          {/* <IconButton icon={<Grid />} shape="rectangle" />
+          <IconButton icon={<Map />} shape="rectangle" /> */}
         </div>
         <div className={styles.wrapper}>
           <Select className={styles.select}>
@@ -43,7 +43,7 @@ const FilterBar: FC = () => {
           <GuestsCounter />
         </div>
         <div className={styles.wrapper}>
-          <IconButton icon={<Filter />} shape="rectangle" />
+          {/* <IconButton icon={<Filter />} shape="rectangle" /> */}
         </div>
       </div>
     </section>
