@@ -54,7 +54,7 @@ const ReserveListingCard: FC<Props> = ({ listing }) => {
         <Select label="Guests" defaultValue={2}>
           {guestOptions.map((item, i) => {
             return (
-              <option value={i}>{`${item} guest${i > 1 ? "s" : ""}`}</option>
+              <option key={i} value={i}>{`${item} guest${i > 1 ? "s" : ""}`}</option>
             );
           })}
         </Select>
