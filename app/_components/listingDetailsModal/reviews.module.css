@@ -1,0 +1,67 @@
+
+.container {
+  margin-bottom: 30px;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingRight {
+  display: flex;
+  align-items: center;
+}
+
+.ratingContainer {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.ratingCompContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ratingType {
+  width: 150px;
+}
+
+.ratingBarContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.ratingBar {
+  display: flex;
+  background: rgb(211, 210, 210);
+  height: 7px;
+  border-radius: 10px;
+  position: relative;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.ratingBarFiller {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.ratingValue {
+  width: 25px;
+}
+
+.viewMore {
+  color: var(--primary);
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}

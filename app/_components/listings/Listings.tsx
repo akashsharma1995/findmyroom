@@ -4,15 +4,22 @@ import React, { FC, useState } from "react";
 import styles from "./listings.module.css";
 import { ListingModel } from "../../_lib/apiModels";
 import Image from "next/image";
-import AddToWishList from "../addToWishlist/AddToWishlist";
+import ListingDetailsModal from "../listingDetailsModal";
 import PricePerNight from "../pricePerNight/PricePerNight";
 import Rating from "../overallRating/Rating";
+import AddToWishList from "../addToWishlist/AddToWishlist";
 
 type OwnProps = {
   listings: ListingModel[];
 };
 
 const Listings: FC<OwnProps> = ({ listings }) => {
+  const [selectedListing, setSelectedListing] = useState<ListingModel>();
+  const [isDetailsModalOpen, setIsDetailsModalOpen] = useState(false);
+
+  const handleCloseModal = () => {
+    setIsDetailsModalOpen(false);
+  };
 
   return (
     <>
@@ -32,11 +39,7 @@ const Listings: FC<OwnProps> = ({ listings }) => {
               </div>
 
               <div
-                style={{
-                  position: "relative",
-                  display: "flex",
-                  height: "200px",
-                }}
+                className={styles.imageContainer}
               >
                 <Image
                   src={listing.thumbnailUrl}
@@ -63,6 +66,12 @@ const Listings: FC<OwnProps> = ({ listings }) => {
           );
         })}
       </div>
+      {isDetailsModalOpen && selectedListing && (
+        <ListingDetailsModal
+          listing={selectedListing}
+          handleClose={handleCloseModal}
+        />
+      )}
     </>
   );
 };

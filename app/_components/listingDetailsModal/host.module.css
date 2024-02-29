@@ -1,0 +1,33 @@
+.container {
+  margin: 30px 0;
+}
+
+.headSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.hostContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hostName {
+  margin: 0;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.viewMore {
+  color: var(--primary);
+  margin-top: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
