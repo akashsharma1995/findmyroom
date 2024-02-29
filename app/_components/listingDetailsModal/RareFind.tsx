@@ -12,7 +12,7 @@ const RareFind: FC<Props> = ({ hostName }) => {
       <Framer className={styles.icon}/>
       <div>
         <span className={styles.heading}>This is a rare find</span>
-        <span>{hostName}'s place on Airbnb is usually fully booked.</span>
+        <span>{`${hostName}'s place on Airbnb is usually fully booked.`}</span>
       </div>
     </div>
   );
