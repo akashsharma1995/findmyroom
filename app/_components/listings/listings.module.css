@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.image {
+  height: auto;
+  width: 100%;
+}
+
+.info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.priceinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.listingTitle {
+  font-weight: 700;
+  display: block;
+}
+
+.addToWishlistWrapper {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 1;
+}
